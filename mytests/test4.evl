@@ -1,0 +1,9 @@
+// test case to check implementation of Name, Single and Number
+// implemented "=" as single.
+module top;
+	wire myDetails;
+	My Name  (Nitin);
+	Department (ComputerEngineering);
+	Aid (A20364483);
+endmodule
+

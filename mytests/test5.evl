@@ -1,8 +1,14 @@
-// test case to check implementation of Name, Number and Single
-module top;
-	wire ECE449;
-	Project2 (SyntacticAnalysis);
-	FinalRelease (September162016);
+// test case to check implementation of Name, Number and Single - Shift Register
+module shiftregister;
+
+	wire sl, sr, din, clk, reset, Q;
+
+	evl_input(sl, sr, din, clk, reset);
+	
+	evl_output (Q);
+
+	evl_clk(clk);
+
 endmodule
 
 

@@ -1,6 +1,12 @@
-// test case to check implementation of Name, Single and Number
-module top;
-	wire Subject, ECE449;
-	Project2 (SyntacticAnalysis);
-	Initial Release (September302016);
-endmodule
+// test case to check implementation of Name, Single and Number - D flip flop
+module dflipflop;
+
+	wire d, clk, reset;
+	
+	evl_clk(clk);
+
+	evl_flipflop(d,reset);
+	
+	not(d);
+
+endmodule 

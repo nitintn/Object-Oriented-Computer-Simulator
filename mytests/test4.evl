@@ -1,9 +1,14 @@
-// test case to check implementation of Name, Single and Number
-// implemented "=" as single.
-module top;
-	wire myDetails;
-	My Name  (Nitin);
-	Department (ComputerEngineering);
-	Aid (A20364483);
-endmodule
+// test case to check implementation of Name, Single and Number -JK flip flop
+module jkflipflop;
+	wire j,k,clk,rst,q;
+
+	evl_input (j,k,clk,rst);
+
+	evl_clk(clk);
+	
+	evl_output (q);
+	
+	xor(j,k);
+
+endmodule 
 

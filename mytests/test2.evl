@@ -1,9 +1,14 @@
-// test case to check implementation of Name and Single
-module top;
-	wire myDetails;
-	My name ( Nitin);
-	Hello (hi);
-	Illinois Institute (of, technology) ;
-	A20364483 (CWID) ;
-endmodule
+// test case to check implementation of Name and Single- full adder
+module adder;
 
+	wire a,b,c;
+
+	evl_sum(a,b,c);
+
+	evl_carry(b,c);
+
+	and(a,b);
+	
+	xor(a,b,c);
+
+endmodule 
